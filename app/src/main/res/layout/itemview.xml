@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgAuthor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_launcher_background"
+            android:contentDescription="imgAuthor" />
+
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jules Verne"
+            android:layout_toRightOf="@id/imgAuthor"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Adventures of Captain Hatteras"
+                android:layout_toRightOf="@id/imgAuthor"
+                android:layout_below="@id/tvAuthor"
+                android:padding="2dp"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+    </android.support.design.card.MaterialCardView>
+
+</RelativeLayout>
