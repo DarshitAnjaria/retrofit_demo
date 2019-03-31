@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         call.enqueue(new Callback<List<RetroData>>() {
             @Override
             public void onResponse(Call<List<RetroData>> call, Response<List<RetroData>> response) {
-                Log.i(TAG, "Response : " + response.body());
                 generateDataList(response.body());
             }
 
