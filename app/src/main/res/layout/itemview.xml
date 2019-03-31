@@ -27,7 +27,6 @@
             android:id="@+id/tvAuthor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jules Verne"
             android:layout_marginTop="5dp"
             android:layout_toRightOf="@id/imgAuthor"
             android:layout_marginLeft="10dp"
@@ -35,15 +34,14 @@
             android:padding="2dp"
             android:textSize="15sp"/>
 
-            <TextView
-                android:id="@+id/tvTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/tvAuthor"
-                android:layout_marginLeft="10dp"
-                android:layout_toRightOf="@id/imgAuthor"
-                android:padding="2dp"
-                android:text="The Adventures of Captain Hatteras" />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAuthor"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imgAuthor"
+            android:padding="2dp"/>
 
         </RelativeLayout>
 
