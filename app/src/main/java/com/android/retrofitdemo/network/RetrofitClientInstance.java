@@ -7,7 +7,7 @@ public class RetrofitClientInstance {
 
     private static Retrofit retrofit;
 
-    private static final String BASE_URL = "https://my-json-server.typicode.com/DarshitAnjaria/server";
+    private static final String BASE_URL = "https://my-json-server.typicode.com/DarshitAnjaria/server/";
 
     public static Retrofit getRetrofitInstance(){
 

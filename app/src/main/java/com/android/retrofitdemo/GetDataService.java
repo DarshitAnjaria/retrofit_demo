@@ -9,6 +9,6 @@ import retrofit2.http.GET;
 
 public interface GetDataService {
 
-    @GET("/books")
+    @GET("books")
     Call<List<RetroData>> getAllData();
 }

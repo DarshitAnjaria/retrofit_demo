@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="8dp">
 
     <android.support.design.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         app:cardElevation="8dp"
         app:cardCornerRadius="3dp">
 
@@ -18,7 +18,8 @@
         <ImageView
             android:id="@+id/imgAuthor"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:src="@drawable/ic_launcher_background"
             android:contentDescription="imgAuthor" />
 
@@ -27,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Jules Verne"
+            android:layout_marginTop="5dp"
             android:layout_toRightOf="@id/imgAuthor"
             android:layout_marginLeft="10dp"
             android:textStyle="bold"
@@ -34,13 +36,14 @@
             android:textSize="15sp"/>
 
             <TextView
+                android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="The Adventures of Captain Hatteras"
-                android:layout_toRightOf="@id/imgAuthor"
                 android:layout_below="@id/tvAuthor"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/imgAuthor"
                 android:padding="2dp"
-                android:layout_marginLeft="10dp"/>
+                android:text="The Adventures of Captain Hatteras" />
 
         </RelativeLayout>
 
