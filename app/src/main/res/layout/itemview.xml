@@ -17,11 +17,11 @@
 
         <ImageView
             android:id="@+id/imgAuthor"
-            android:layout_width="50dp"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
             android:src="@drawable/ic_launcher_background"
-            android:contentDescription="imgAuthor" />
+            android:contentDescription="imgAuthor"
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:id="@+id/tvAuthor"

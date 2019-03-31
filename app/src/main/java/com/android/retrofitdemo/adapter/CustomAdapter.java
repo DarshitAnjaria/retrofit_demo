@@ -47,8 +47,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         builder.downloader(new OkHttp3Downloader(context));
 
         builder.build().load(retroDataList.get(i).getUrl())
-                .placeholder(R.drawable.ic_launcher_background)
-                .error(R.drawable.ic_launcher_foreground)
+                .placeholder(R.drawable.thumb)
+                .error(R.drawable.thumb)
                 .into(viewHolder.imgAuthor);
     }
 
